@@ -1,0 +1,20 @@
+{
+  "custombuilds": [
+    {
+      "id": 2,
+      "name": "Ragul",
+      "mail": "ragul@123.com",
+      "processorid": "p3",
+      "ramid": "r3",
+      "memoryid": "m1"
+    },
+    {
+      "id": 3,
+      "name": "Sree ",
+      "mail": "sree@123.com",
+      "processorid": "p1",
+      "ramid": "r1",
+      "memoryid": "m2"
+    }
+  ]
+}

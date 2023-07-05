@@ -1,0 +1,82 @@
+{
+  "data":[
+    [
+      {
+        "id": 1,
+        "name":"Processor",
+        "profile": "./images/ram.jpg",
+        "brand": "abc",
+        "price": 999,
+        "tag": "p1"
+      },
+      {
+        "id": 2,
+        "name":"Processor",
+        "profile": "images/ram.jpg",
+        "brand": "abc",
+        "price": 999,
+        "tag": "p2"
+      },
+      {
+        "id": 3,
+        "name":"Processor",
+        "profile": "ram.jpg",
+        "brand": "abc",
+        "price": 999,
+        "tag": "p3"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name":"Ram",
+        "profile": "ram.jpg",
+        "brand": "abc",
+        "price": 998,
+        "tag": "r1"
+      },
+      {
+        "id": 2,
+        "name":"Ram",
+        "profile": "ram.jpg",
+        "brand": "abc",
+        "price": 999,
+        "tag": "r2"
+      },
+      {
+        "id": 3,
+        "name":"Ram",
+        "profile": "ram.jpg",
+        "brand": "abc",
+        "price": 999,
+        "tag": "r3"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name":"Memory",
+        "profile": "ram.jpg",
+        "brand": "abc",
+        "price": 997,
+        "tag": "m1"
+      },
+      {
+        "id": 2,
+        "name":"Memory",
+        "profile": "ram.jpg",
+        "brand": "abc",
+        "price": 999,
+        "tag": "m2"
+      },
+      {
+        "id": 3,
+        "name":"Memory",
+        "profile": "ram.jpg",
+        "brand": "abc",
+        "price": 999,
+        "tag": "m3"
+      }
+    ]
+  ]
+}
