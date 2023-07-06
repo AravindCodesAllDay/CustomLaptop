@@ -3,6 +3,7 @@ import { useState,useEffect } from 'react'
 // import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
 import Topnavbar from './components/Topnavbar'
 import Checkform from './components/Checkform'
+// import Creatcard2 from './components/Creatcard2'
 
 function App() {
 
@@ -43,6 +44,7 @@ function App() {
     <div>
       <Topnavbar/>
       <Checkform bundle={data} onSubmit={addBuild} />
+      {/* <Creatcard2/> */}
     </div>
   )
 }

@@ -10,7 +10,7 @@ function Displaycard({deck,findCardId}) {
     <Container>
       <Nav variant="tabs" defaultActiveKey="/home">
         <Nav.Item>
-          <Nav.Link>{deck[1].name}</Nav.Link>
+          <Nav.Link><b>{deck[1].name}</b></Nav.Link>
         </Nav.Item>
       </Nav>
       <Row>{deck.map((cards)=><Col><Creatcard card={cards} checkCardId={findCardId} /></Col>)}</Row>

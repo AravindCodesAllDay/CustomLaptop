@@ -34,13 +34,13 @@ function Checkform({bundle,onSubmit}) {
     }
 
   return (
-    <Container>
-        <Form onSubmit={upload}>
+    <Form onSubmit={upload}>
 
-            <Form.Group>
-                {bundle.map((decks)=><Displaycard deck={decks} findCardId={getCardId} />)}
-            </Form.Group>
+        <Form.Group>
+            {bundle.map((decks)=><Displaycard deck={decks} findCardId={getCardId} />)}
+        </Form.Group>
 
+        <Container>
             <Form.Group className="mb-3" controlId="formBasicPassword">
                 <Form.Label>Name*</Form.Label>
                 <Form.Control type="text" placeholder="Enter Name" required value={name} onChange={(val)=>setName(val.target.value)}/>
@@ -59,9 +59,9 @@ function Checkform({bundle,onSubmit}) {
             </Form.Group>
 
             <Button variant="primary" type="submit">Submit</Button>
-        </Form>
+        </Container>
+    </Form>
 
-    </Container>
   );
 }
 

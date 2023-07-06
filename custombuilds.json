@@ -15,6 +15,14 @@
       "processorid": "p1",
       "ramid": "r1",
       "memoryid": "m2"
+    },
+    {
+      "name": "Praveen",
+      "mail": "praveen@123.com",
+      "processorid": "p1",
+      "ramid": "r2",
+      "memoryid": "m2",
+      "id": 4
     }
   ]
 }
