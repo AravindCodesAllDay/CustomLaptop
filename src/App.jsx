@@ -4,6 +4,7 @@ import { Route,BrowserRouter as Router, Routes } from 'react-router-dom'
 import Topnavbar from './components/Topnavbar'
 import CreateCustombuild from './components/CreateCustombuild'
 import Homepage from './components/Homepage'
+import Adminlogin from './components/Adminlogin'
 
 function App() {
 
@@ -47,6 +48,7 @@ function App() {
         <Routes>
             <Route path='/' element={<Homepage/>}/>
             <Route path="/createBuild" element={<CreateCustombuild bundle={data} onSubmit={addBuild}/>}/>
+            <Route path="/admin" element={<Adminlogin bundle={data}/>}/>
         </Routes>
       </Router>
     </>
