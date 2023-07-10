@@ -1,28 +1,34 @@
 {
   "custombuilds": [
     {
-      "id": 2,
-      "name": "Ragul",
-      "mail": "ragul@123.com",
-      "processorid": "p3",
-      "ramid": "r3",
-      "memoryid": "m1"
-    },
-    {
-      "id": 3,
-      "name": "Sree ",
-      "mail": "sree@123.com",
-      "processorid": "p1",
-      "ramid": "r1",
-      "memoryid": "m2"
-    },
-    {
-      "name": "Praveen",
-      "mail": "praveen@123.com",
-      "processorid": "p1",
+      "name": "Aravind ",
+      "mail": "aravind@123.com",
+      "processorid": "ps1",
+      "graphicscardid": "g2",
+      "powersupplyid": "",
       "ramid": "r2",
-      "memoryid": "m2",
-      "id": 4
+      "memoryid": "m3",
+      "id": 1
+    },
+    {
+      "name": "y",
+      "mail": "jg@gmail.com",
+      "processorid": "ps1",
+      "graphicscardid": "g1",
+      "powersupplyid": "",
+      "ramid": "r1",
+      "memoryid": "m1",
+      "id": 2
+    },
+    {
+      "name": "y",
+      "mail": "jg@gmail.com",
+      "processorid": "p3",
+      "graphicscardid": "g3",
+      "powersupplyid": "",
+      "ramid": "r3",
+      "memoryid": "m3",
+      "id": 3
     }
   ]
 }

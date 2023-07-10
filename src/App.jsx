@@ -1,9 +1,9 @@
 import './App.css'
 import { useState,useEffect } from 'react'
-// import {BrowserRouter as Router, Route, Routes} from 'react-router-dom'
+import { Route,BrowserRouter as Router, Routes } from 'react-router-dom'
 import Topnavbar from './components/Topnavbar'
-import Checkform from './components/Checkform'
-// import Creatcard2 from './components/Creatcard2'
+import CreateCustombuild from './components/CreateCustombuild'
+import Homepage from './components/Homepage'
 
 function App() {
 
@@ -41,11 +41,15 @@ function App() {
 
 
   return (
-    <div>
+    <>
       <Topnavbar/>
-      <Checkform bundle={data} onSubmit={addBuild} />
-      {/* <Creatcard2/> */}
-    </div>
+      <Router>
+        <Routes>
+            <Route path='/' element={<Homepage/>}/>
+            <Route path="/createBuild" element={<CreateCustombuild bundle={data} onSubmit={addBuild}/>}/>
+        </Routes>
+      </Router>
+    </>
   )
 }
 

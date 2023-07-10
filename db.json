@@ -32,6 +32,64 @@
     [
       {
         "id": 1,
+        "name":"Graphics Card",
+        "model": "i9-12950K",
+        "profile": "./src/assets/images/ram.jpg",
+        "brand": "abc",
+        "price": 45000,
+        "tag": "g1"
+      },
+      {
+        "id": 2,
+        "name":"Graphics Card",
+        "model": "i7-12700H",
+        "profile": "./src/assets/images/ram.jpg",
+        "brand": "abc",
+        "price": 35000,
+        "tag": "g2"
+      },
+      {
+        "id": 3,
+        "name":"Graphics Card",
+        "model": "i5-12450H",
+        "profile": "./src/assets/images/ram.jpg",
+        "brand": "abc",
+        "price": 20000,
+        "tag": "g3"
+      }
+    ],
+    [
+      {
+        "id": 1,
+        "name":"Power Supply",
+        "model": "i9-12950K",
+        "profile": "./src/assets/images/ram.jpg",
+        "brand": "abc",
+        "price": 45000,
+        "tag": "ps1"
+      },
+      {
+        "id": 2,
+        "name":"Power Supply",
+        "model": "i7-12700H",
+        "profile": "./src/assets/images/ram.jpg",
+        "brand": "abc",
+        "price": 35000,
+        "tag": "ps2"
+      },
+      {
+        "id": 3,
+        "name":"Power Supply",
+        "model": "i5-12450H",
+        "profile": "./src/assets/images/ram.jpg",
+        "brand": "abc",
+        "price": 20000,
+        "tag": "ps3"
+      }
+    ],
+    [
+      {
+        "id": 1,
         "name":"Ram",
         "model": "16gb-DDR4",
         "profile": "./src/assets/images/ram.jpg",

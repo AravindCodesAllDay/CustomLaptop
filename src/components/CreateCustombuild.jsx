@@ -5,17 +5,23 @@ import Button from 'react-bootstrap/Button';
 import Form from 'react-bootstrap/Form';
 
 
-function Checkform({bundle,onSubmit}) {
+function CreateCustombuild({bundle,onSubmit}) {
 
     const [name,setName] = useState('')
-    const [mail,setMail] = useState('')    
-    const [processorid,setprocessorid] = useState('')
+    const [mail,setMail] = useState('')
+    const [processorid,setprocessorid] = useState('') 
+    const [graphicscardid,setgraphicsidcard] = useState('')
+    const [powersupplyid,setpowersupplyid] = useState('')
     const [ramid,setramid] = useState('')
     const [memoryid,setmemoryid] = useState('')
 
     const getCardId = (tag) =>{
         if(tag.includes("p")){
             setprocessorid(tag)
+        }else if(tag.includes("g")){
+            setgraphicsidcard(tag)
+        }else if(tag.includes("ps")){
+            setpowersupplyid(tag)
         }else if(tag.includes("r")){
             setramid(tag)
         }else if(tag.includes("m")){
@@ -25,7 +31,7 @@ function Checkform({bundle,onSubmit}) {
 
     const upload=(val)=>{
         val.preventDefault()
-        onSubmit({name,mail,processorid,ramid,memoryid})        
+        onSubmit({name,mail,processorid,graphicscardid,powersupplyid,ramid,memoryid})        
         setName("")
         setMail("")
         setmemoryid("")
@@ -65,4 +71,4 @@ function Checkform({bundle,onSubmit}) {
   );
 }
 
-export default Checkform;
+export default CreateCustombuild;
