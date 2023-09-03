@@ -3,8 +3,9 @@ import { useNavigate } from 'react-router-dom';
 import Button from 'react-bootstrap/Button';
 import Card from 'react-bootstrap/Card';
 import Form from 'react-bootstrap/Form';
+import Userhomepage from './Userhomepage';
 
-function Adminlogin() {
+function Userlogin() {
 
   const navigate=useNavigate();
   const [data,setData] = useState([])
@@ -20,7 +21,7 @@ function Adminlogin() {
   },[])
 
   const displayCards = async () => {   
-    const resp = await fetch('http://localhost:3002/admin')
+    const resp = await fetch('http://localhost:3003/users')
     const rawData = await resp.json()
     return rawData
   }
@@ -29,8 +30,9 @@ function Adminlogin() {
     val.preventDefault()
 
     data.map((value)=>{
-      if(mail==value.mail && pass==value.password){
-        navigate("/adminpage")
+      if(mail==value.mail && pass==value.pass){        
+        navigate("/userhomepage")
+        Userhomepage(value.id)
       }else{
         alert("Mail-ID or Password is wrong")
       }
@@ -40,7 +42,7 @@ function Adminlogin() {
 
   return (
     <Card style={{ width: '700px' }}>
-        <h2>Admin Login</h2>
+        <h2>User Login</h2>
     <Form onSubmit={checkLogin}>
       <Form.Group className="mb-3" controlId="formBasicEmail" >
         <Form.Label>Mail address</Form.Label>
@@ -58,4 +60,4 @@ function Adminlogin() {
   );
 }
 
-export default Adminlogin;
+export default Userlogin;

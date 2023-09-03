@@ -3,32 +3,24 @@
     {
       "name": "Aravind ",
       "mail": "aravind@123.com",
-      "processorid": "ps1",
+      "buildcomplete": false, 
+      "processorid": "p1",
       "graphicscardid": "g2",
-      "powersupplyid": "",
+      "powersupplyid": "s1",
       "ramid": "r2",
       "memoryid": "m3",
       "id": 1
     },
     {
-      "name": "y",
-      "mail": "jg@gmail.com",
-      "processorid": "ps1",
-      "graphicscardid": "g1",
-      "powersupplyid": "",
-      "ramid": "r1",
-      "memoryid": "m1",
-      "id": 2
-    },
-    {
-      "name": "y",
-      "mail": "jg@gmail.com",
-      "processorid": "p3",
+      "name": "umar",
+      "mail": "umar@123.com",      
+      "buildcomplete": true, 
+      "processorid": "p2",
       "graphicscardid": "g3",
-      "powersupplyid": "",
-      "ramid": "r3",
-      "memoryid": "m3",
-      "id": 3
+      "powersupplyid": "s2",
+      "ramid": "r2",
+      "memoryid": "m1",
+      "id": 5
     }
   ]
 }

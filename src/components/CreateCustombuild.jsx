@@ -2,6 +2,7 @@ import {useState} from 'react'
 import Displaycard from "./Displaycard";
 import Container from 'react-bootstrap/Container';
 import Button from 'react-bootstrap/Button';
+import Card from 'react-bootstrap/Card';
 import Form from 'react-bootstrap/Form';
 
 
@@ -14,13 +15,14 @@ function CreateCustombuild({bundle,onSubmit}) {
     const [powersupplyid,setpowersupplyid] = useState('')
     const [ramid,setramid] = useState('')
     const [memoryid,setmemoryid] = useState('')
+    const buildcomplete = false
 
     const getCardId = (tag) =>{
         if(tag.includes("p")){
             setprocessorid(tag)
         }else if(tag.includes("g")){
             setgraphicsidcard(tag)
-        }else if(tag.includes("ps")){
+        }else if(tag.includes("s")){
             setpowersupplyid(tag)
         }else if(tag.includes("r")){
             setramid(tag)
@@ -31,7 +33,7 @@ function CreateCustombuild({bundle,onSubmit}) {
 
     const upload=(val)=>{
         val.preventDefault()
-        onSubmit({name,mail,processorid,graphicscardid,powersupplyid,ramid,memoryid})        
+        onSubmit({name,mail,buildcomplete,processorid,graphicscardid,powersupplyid,ramid,memoryid})        
         setName("")
         setMail("")
         setmemoryid("")
@@ -47,6 +49,7 @@ function CreateCustombuild({bundle,onSubmit}) {
         </Form.Group>
 
         <Container>
+            <Card>
             <Form.Group className="mb-3" controlId="formBasicPassword">
                 <Form.Label>Name*</Form.Label>
                 <Form.Control type="text" placeholder="Enter Name" required value={name} onChange={(val)=>setName(val.target.value)}/>
@@ -65,6 +68,7 @@ function CreateCustombuild({bundle,onSubmit}) {
             </Form.Group>
 
             <Button variant="primary" type="submit">Submit</Button>
+            </Card>
         </Container>
     </Form>
 

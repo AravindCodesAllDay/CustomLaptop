@@ -8,7 +8,7 @@
     "build": "vite build",
     "lint": "eslint src --ext js,jsx --report-unused-disable-directives --max-warnings 0",
     "preview": "vite preview",
-    "servers": "concurrently --kill-others \"json-server --watch db.json --port 3000\" \"json-server --watch custombuilds.json --port 3001\""
+    "servers": "concurrently --kill-others \"json-server --watch db.json --port 3000\" \"json-server --watch custombuilds.json --port 3001\" \"json-server --watch admin.json --port 3002\" \"json-server --watch users.json --port 3003\""
   },
   "dependencies": {
     "-": "^0.0.1",
