@@ -1,0 +1,12 @@
+{
+    "admin":[
+        {
+            "mail":"aravind@123.com",
+            "password":"1234"
+        },
+        {
+            "mail":"ragul@123.com",
+            "password":"1234"
+        }
+    ]
+}

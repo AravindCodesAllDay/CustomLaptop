@@ -1,0 +1,89 @@
+{
+  "users": [
+    {
+      "id": 1,
+      "name": "Aravind",
+      "mail": "aravind@123.com",
+      "pass": "1234",
+      "custombuilds": [
+        {
+          "buildcomplete": false,
+          "processorid": "p1",
+          "graphicscardid": "g2",
+          "powersupplyid": "s1",
+          "ramid": "r2",
+          "memoryid": "m3",
+          "id": 1
+        },
+        {
+          "buildcomplete": false,
+          "processorid": "p1",
+          "graphicscardid": "g2",
+          "powersupplyid": "s1",
+          "ramid": "r2",
+          "memoryid": "m3",
+          "id": 2
+        }
+      ]
+    },
+    {
+      "id": 2,
+      "name": "Ragul",
+      "mail": "ragul@123.com",
+      "pass": "1234",
+      "custombuilds": [
+        {
+          "buildcomplete": true,
+          "processorid": "p1",
+          "graphicscardid": "g2",
+          "powersupplyid": "s1",
+          "ramid": "r2",
+          "memoryid": "m3",
+          "id": 1
+        },
+        {
+          "buildcomplete": false,
+          "processorid": "p1",
+          "graphicscardid": "g2",
+          "powersupplyid": "s1",
+          "ramid": "r2",
+          "memoryid": "m3",
+          "id": 2
+        }
+      ]
+    },
+    {
+      "id": 3,
+      "name": "Umar",
+      "mail": "umar@123.com",
+      "pass": "1234",
+      "custombuilds": [
+        {
+          "buildcomplete": false,
+          "processorid": "p1",
+          "graphicscardid": "g2",
+          "powersupplyid": "s1",
+          "ramid": "r2",
+          "memoryid": "m3",
+          "id": 1
+        },
+        {
+          "buildcomplete": false,
+          "processorid": "p1",
+          "graphicscardid": "g2",
+          "powersupplyid": "s1",
+          "ramid": "r2",
+          "memoryid": "m3",
+          "id": 2
+        }
+      ]
+    },
+    {
+      "name": "Praveen ",
+      "mail": "praveen@123.com",
+      "pass": "1234",
+      "custombuilds": [],
+      "id": 4
+    }
+  ]
+}
